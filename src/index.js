@@ -1,0 +1,14 @@
+import "./style.css";
+import pageload from "./initial page-load.js";
+import contact from "./Contact.js";
+import Menu from "./menu.js";
+const content = document.createElement("div");
+content.setAttribute("id", "content");
+document.querySelector("body").appendChild(content);
+pageload();
+const Contact = document.querySelector("#contact");
+Contact.addEventListener("click", contact);
+const home = document.querySelector("#home");
+home.addEventListener("click", pageload);
+const menu = document.querySelector("#menu");
+menu.addEventListener("click", Menu);
