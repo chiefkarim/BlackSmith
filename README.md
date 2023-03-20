@@ -1,2 +1,2 @@
 # Black-smith
-live Demo https://chiefkarim.github.io/Black-smith/dist
+live Demo https://chiefkarim.github.io/BlackSmith/dist
